@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f9ff;
+}
+
+/* Header */
+header {
+  background: #0077b6;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #90e0ef, #caf0f8);
+}
+
+/* Services */
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* Chatbot */
+.chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+.chat-header {
+  background: #0077b6;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.chat-body {
+  height: 200px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.chat-input {
+  display: flex;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.chat-input button {
+  padding: 10px;
+  background: #0077b6;
+  color: white;
+  border: none;
+}
+
+/* Messages */
+.user {
+  text-align: right;
+  margin: 5px;
+}
+
+.bot {
+  text-align: left;
+  margin: 5px;
+  color: #0077b6;
+}
